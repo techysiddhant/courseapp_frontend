@@ -33,9 +33,9 @@ const Request = () => {
     }
   }, [dispatch, error, stateMessage]);
   return (
-    <Container height={'90vh'} >
+    <Container minHeight={'90vh'} >
         <VStack h={'full'} justifyContent={'center'} spacing='16'>
-            <Heading>Request New Course</Heading>
+            <Heading marginTop="20px">Request New Course</Heading>
             <form onSubmit={submitHandler}  style={{width:"100%"}}>
                 <Box my='4'>
                 <FormLabel htmlFor='name' children={"Name"} />

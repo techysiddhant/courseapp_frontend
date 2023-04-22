@@ -33,9 +33,9 @@ const Contact = () => {
         }
       }, [dispatch, error, stateMessage]);
   return (
-    <Container height={'90vh'} >
+    <Container minHeight={'90vh'} >
         <VStack h={'full'} justifyContent={'center'} spacing='16'>
-            <Heading>Contact Us</Heading>
+            <Heading marginTop="20px">Contact Us</Heading>
             <form onSubmit={submitHandler} style={{width:"100%"}}>
                 <Box my='4'>
                 <FormLabel htmlFor='name' children={"Name"} />

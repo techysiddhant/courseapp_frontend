@@ -53,9 +53,9 @@ const Register = () => {
 
 
   return (
-    <Container h={'95vh'}>
-      <VStack h={'full'} justifyContent="center" spacing={'16'}>
-        <Heading textTransform={'uppercase'}>Registration</Heading>
+    <Container minH={"90vh"}>
+      <VStack h={'full'}  justifyContent="center" spacing={'16'}>
+        <Heading textTransform={'uppercase'} marginTop="20px">Registration</Heading>
         <form action="" style={{ width: '100%' }} onSubmit={submitHandler}>
           <Box my="4" display={'flex'} justifyContent="center">
             <Avatar src={imagePrev} size="2xl" />

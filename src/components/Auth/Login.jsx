@@ -13,9 +13,9 @@ const Login = () => {
         dispatch(login(email,password));
     }
   return (
-    <Container h={"95vh"}>
+    <Container minH={"95vh"}>
         <VStack h={"full"} justifyContent="center" spacing={"16"}>
-            <Heading>Welcome to Coursebundler</Heading>
+            <Heading marginTop="20px">Welcome to Codify.io</Heading>
             <form action="" style={{width:"100%"}} onSubmit={submitHandler}>
                 <Box my='4'>
                 <FormLabel htmlFor='email' children={"Email"} />

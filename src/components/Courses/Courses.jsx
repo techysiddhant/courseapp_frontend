@@ -31,12 +31,19 @@ const Courses = () => {
             dispatch({type:"clearMessage"});
         }
     },[category,keyword,dispatch,error,message]);
+    const handleClearFilter = ()=>{
+        setCategory('');
 
+    }
   return (
     <Container  minH={'95vh'} maxW='container.lg' paddingY={"8"}>
         <Heading m={'8'}>All Courses</Heading>
+        <HStack>
         <Input value={keyword} onChange={e=>setKeyword(e.target.value)} placeholder="Search a Course..." type={'text'} focusBorderColor="yellow.500" />
-
+        {
+            category && <Button onClick={handleClearFilter}>Clear Category</Button>
+        }
+        </HStack>
         <HStack overflowX={"auto"} paddingY='8'>
             {
                 categories.map((item,index)=>(
