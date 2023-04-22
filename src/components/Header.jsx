@@ -24,14 +24,16 @@ const Header = ({isAuthenticated=false,user}) => {
     }
   return (
     <>
+        <HStack >
         <ColorModeSwitcher/>
         <Button colorScheme={"yellow"} zIndex={"overlay"} width="12" rounded={'full'} height="12" position={'fixed'} top='6' left={'6'} onClick={onOpen}>
             <RiMenu5Fill/>
         </Button>
-        <Drawer placement='left' onClose={onClose} isOpen={isOpen}>
+        
+        <Drawer placement='left' onClose={onClose} isOpen={isOpen} >
             <DrawerOverlay backdropFilter={'blur(3px)'} />
             <DrawerContent>
-                <DrawerHeader borderBottomWidth={'1px'}>COURSE BUNDLER</DrawerHeader>
+                <DrawerHeader borderBottomWidth={'1px'}>Codify.io</DrawerHeader>
                 <DrawerBody>
                     <VStack spacing={'4'} alignItems="flex-start">
                         <LinkButton onClose={onClose} url='/' title="Home" />
@@ -81,6 +83,8 @@ const Header = ({isAuthenticated=false,user}) => {
                 </DrawerBody>
             </DrawerContent>
         </Drawer>
+        </HStack>
+       
     </>
   )
 }

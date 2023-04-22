@@ -16,5 +16,6 @@ const store = configureStore({
 });
 
 export default store;
-// export const server = "https://courseapp-backend.vercel.app/api/v1";
+//test server URL
+// export const server = "https://courseappbackend-production.up.railway.app";
 export const server = "https://wandering-scarf-ray.cyclic.app/api/v1";
