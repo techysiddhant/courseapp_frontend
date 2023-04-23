@@ -1,0 +1,142 @@
+ .mySwiper {
+     height: 100vh;
+     width: 100%;
+ }
+ 
+ .swiper {
+     width: 100%;
+     height: 100%;
+     padding: 0 40px;
+     /* margin-top: 9rem; */
+ }
+ 
+ .grid {
+     display: grid;
+     gap: 9rem;
+ }
+ 
+ .grid-two-col {
+     grid-template-columns: repeat(2, 1fr);
+ }
+ 
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     flex-direction: column;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+     margin-bottom: 5rem;
+ }
+ 
+ .swiper-client-msg {
+     padding: 5rem 8rem;
+     background-color: #fff;
+     border-radius: 10px;
+     text-align: left;
+     /* box-shadow: 0px 0px 20px 0px rgb(214, 158, 46 / 20%); */
+     position: relative;
+ }
+ 
+ .swiper-client-msg::before {
+     content: "";
+     position: absolute;
+     bottom: -10rem;
+     left: 50%;
+     transform: translateX(-50%);
+     border: 5rem solid white;
+     border-color: transparent;
+     border-top-color: #ebd7ae;
+ }
+ 
+ .swiper-client-msg p::before {
+     content: "\f10d";
+     display: inline-block;
+     position: absolute;
+     top: 0;
+     left: 2rem;
+     font-size: 5rem;
+     font-family: "Font Awesome 6 Free";
+     font-weight: 900;
+     color: rgb(214, 158, 46);
+ }
+ 
+ .swiper-client-msg p::after {
+     content: "\f10e";
+     position: absolute;
+     bottom: 0%;
+     right: 5%;
+     font-size: 5rem;
+     font-family: "Font Awesome 6 Free";
+     font-weight: 800;
+     color: #D69E2E;
+ }
+ 
+ .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ 
+ .swiper-client-data {
+     align-items: center;
+     justify-items: start;
+     justify-content: start;
+     gap: 1.4rem;
+     margin-top: 3.2rem;
+ }
+ 
+ .swiper-client-data img {
+     max-width: 10rem;
+     height: 10rem;
+     border-radius: 50%;
+     border: 0.4rem solid #D69E2E;
+ }
+ 
+ @media screen and (max-width:1000px) {
+     .swiper-client-msg p::after {
+         font-size: 2rem;
+     }
+     .swiper-client-msg p::before {
+         font-size: 2rem;
+     }
+ }
+ 
+ @media screen and (min-width:300px) and (max-width:990px) {
+     .swiper-client-msg {
+         padding: 2rem 3rem;
+     }
+     .swiper-client-data img {
+         max-width: 5rem;
+         height: 5rem;
+         border: 0.3rem solid #ced3ff;
+     }
+     .swiper-client-data {
+         gap: 1rem;
+         margin-top: 3.2rem;
+     }
+     .swiper-client-msg::before {
+         bottom: -6rem;
+         border: 3rem solid white;
+         border-color: transparent;
+         border-top-color: #ebd7ae;
+     }
+     .swiper {
+         padding: 0 20px;
+         margin-top: 4rem;
+     }
+     .swiper-client-msg p::before {
+         top: 10px;
+         left: 1rem;
+     }
+ }

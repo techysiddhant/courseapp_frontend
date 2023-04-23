@@ -16,6 +16,17 @@
     }
 }
 
+.stats-container {
+    text-align: center;
+    /* border: 1px solid yellow; */
+    /* margin: 20px 0; */
+}
+
+.stats-container .counter {
+    font-size: 50px;
+    font-weight: 600;
+}
+
 .brandsBanner>svg {
     color: white;
     font-size: 3rem;
@@ -51,12 +62,26 @@
     transform: translateY(-10px);
 }
 
+.price-container {
+    min-height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width:600px) {
     .container2 {
         height: unset;
     }
     .container2 video {
         width: 100%;
+    }
+    .price-container {
+        padding: 2rem;
+        margin-bottom: 40px;
+    }
+    .test-container {
+        margin-bottom: 40px;
     }
 }
 
