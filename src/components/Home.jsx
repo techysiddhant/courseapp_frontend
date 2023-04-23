@@ -9,6 +9,7 @@ import introVideo from "../assets/videos/intro.mp4";
 import useScrollPosition from "../useScrollPosition.js";
 import Card from './Card';
 import Testimonial from './Testimonial/Testimonial';
+import Faq from '../Faq/Faq';
 const Home = () => {
     const scrollPosition = useScrollPosition();
     const counterEl = document.querySelectorAll(".counter");
@@ -83,6 +84,10 @@ const Home = () => {
             <video  controls controlsList='nodownload nofullscreen noremoteplayback' disablePictureInPicture disableRemotePlayback src={introVideo}>
 
             </video>
+        </div>
+        <div className='faq-container'>
+            
+            <Faq/>
         </div>
     </section>
   )
