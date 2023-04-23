@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import "./faq.css";
 const FAQ = ({faq,index,toggleFAQ}) => {
     return(
-        <Box color={"black"} className={"faq " + (faq.open ? 'open' : '')} key={index} margin={"15px"} padding={"15px"} bgColor={"white"} borderRadius={"4px"} boxShadow={"md"} onClick={()=>toggleFAQ(index)} >
+        <Box  className={"faq " + (faq.open ? 'open' : '')} key={index} margin={"15px"} padding={"15px"}  borderRadius={"4px"} boxShadow={"md"} onClick={()=>toggleFAQ(index)} >
             <Box className="faq-question" position={"relative"} fontSize={"20px"} paddingRight={"80px"} >
                 {faq.question}
 
@@ -47,7 +47,7 @@ const Faq = () => {
         <Heading textAlign={"center"} margin={"20px 0"}>Frequently Asked Questions</Heading>
         {
             faqs.map((faq,index) => {
-                return <FAQ faq={faq} index={index} toggleFAQ={toggleFAQ} />
+                return <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
             })
         }
     </Box>

@@ -42,7 +42,8 @@ const Home = () => {
             
             <Stack direction={["column","column","column","row"]} height="100%" width={"100%"} justifyContent={['center','center']} alignItems="center" spacing={["16","16","18","16"]}>
                 <VStack width={["100%","100%","100%","50%"]} alignItems={["center","center","center","flex-start"]} spacing='8'>
-                    <Heading textAlign={["center","center","center",'left']} size={'2xl'}>LEARN FROM THE EXPERTS</Heading>
+                    <Text fontSize={"xl"} fontWeight={"semibold"} colorScheme={"blackAlpha.700"} padding={"5px"} borderRadius={"4px"} >Codify.io</Text>
+                    <Heading textAlign={["center","center","center",'left']} size={'2xl'}>Different Way to Shape Your Future</Heading>
                     <Text fontSize={'2xl'} fontFamily='cursive' textAlign={'left'}>Learn how to think like a developer and build any project you can dream of by taking action instead of just following along with tutorials.</Text>
                     <Link to="/courses">
                         <Button size={'lg'} colorScheme={'yellow'}>Explore Now</Button>
