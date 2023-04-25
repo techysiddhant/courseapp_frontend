@@ -19,3 +19,4 @@ export default store;
 //test server URL
 // export const server = "https://courseappbackend-production.up.railway.app";
 export const server = "https://wandering-scarf-ray.cyclic.app/api/v1";
+// export const server = "http://localhost:4000/api/v1";
