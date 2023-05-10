@@ -53,9 +53,11 @@
 }
 
 .course {
-    width: 250px;
+    width: 300px;
+    height: 500px;
     margin-bottom: 1rem;
     transition: all 0.5s;
+    /* border: 1px solid rgba(0, 0, 0, 0.18); */
 }
 
 .course:hover {
