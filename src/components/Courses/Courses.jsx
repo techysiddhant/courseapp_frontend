@@ -98,7 +98,7 @@ const Courses = () => {
             />
           ))
         ) : (
-          <Heading>Courses not found</Heading>
+          <Heading>Coming Soon..</Heading>
         )}
       </Stack>
     </Container>

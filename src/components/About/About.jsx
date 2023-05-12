@@ -11,41 +11,72 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import videoSrc from '../../assets/videos/intro.mp4';
+// import videoSrc from '../../assets/videos/intro.mp4';
 import { RiSecurePaymentFill } from 'react-icons/ri';
 import tandc from '../../assets/docs/termsAndCondition';
 const Founder = () => (
-  <Stack direction={['column', 'row']} spacing={['4', '16']} padding={'8'}>
+  <Stack
+    direction={['column', 'row']}
+    spacing={['4', '16']}
+    padding={'8'}
+    // width={'full'}
+  >
     <VStack>
       <Avatar
-        boxSize={['40', '48']}
+        boxSize={['40', '40']}
         src="https://avatars.githubusercontent.com/u/68164152?v=4"
       />
-      <Text opacity={'0.7'}>Co-Founder</Text>
+      <Text opacity={''}>Siddhant Jain</Text>
+      <Text opacity={'0.7'}>Founder & CEO</Text>
+    </VStack>
+    <VStack>
+      <Avatar
+        boxSize={['40', '40']}
+        src="https://avatars.githubusercontent.com/u/101787705?v=4"
+      />
+      <Text opacity={''}>Samarth Goyal</Text>
+      <Text opacity={'0.7'}>CTO</Text>
+    </VStack>
+    <VStack>
+      <Avatar
+        boxSize={['40', '40']}
+        src="https://media.licdn.com/dms/image/C4E03AQFcnBPtev4B6g/profile-displayphoto-shrink_400_400/0/1642849481221?e=1689206400&v=beta&t=2vel06XG1oo7Qg1ALPX9mArfDKbimnRJ_GjBi-WSA-M"
+      />
+      <Text opacity={''}>Pushkar</Text>
+      <Text opacity={'0.7'}>CMO</Text>
+    </VStack>
+    <VStack>
+      <Avatar
+        boxSize={['40', '40']}
+        border={'1px solid gray'}
+        src="https://media.licdn.com/dms/image/C4E03AQGyvGMRf01f5w/profile-displayphoto-shrink_400_400/0/1652213827521?e=1689206400&v=beta&t=gVpu4jfuakOEnavCrpoiCT8gcTMeuoc4wT2igNIhtfQ"
+      />
+      <Text opacity={''}>Riya Tiwari</Text>
+      <Text opacity={'0.7'}>MD</Text>
     </VStack>
 
-    <VStack justifyContent={'center'} alignItems={['center', 'flex-start']}>
+    {/* <VStack justifyContent={'center'} alignItems={['center', 'flex-start']}>
       <Heading size={['md', 'xl']}>Siddhant Jain</Heading>
       <Text textAlign={['center', 'left']}>
         Hi,I'm a Full Stack Developer and Passionate Teacher. Our Mission is to
         provide quality content at reasonable price.
       </Text>
-    </VStack>
+    </VStack> */}
   </Stack>
 );
-const VideoPlayer = () => (
-  <Box>
-    <video
-      src={videoSrc}
-      autoPlay
-      muted
-      controls
-      controlsList="nodownload nofullscreen noremoteplayback"
-      disablePictureInPicture
-      disableRemotePlayback
-    ></video>
-  </Box>
-);
+// const VideoPlayer = () => (
+//   <Box>
+//     <video
+//       src={videoSrc}
+//       autoPlay
+//       muted
+//       controls
+//       controlsList="nodownload nofullscreen noremoteplayback"
+//       disablePictureInPicture
+//       disableRemotePlayback
+//     ></video>
+//   </Box>
+// );
 const TandC = ({ termsAndCondition }) => (
   <Box>
     <Heading size={'md'} textAlign={['center', 'left']} my="4">
@@ -81,7 +112,7 @@ const About = () => {
           </Button>
         </Link>
       </Stack>
-      <VideoPlayer />
+      {/* <VideoPlayer /> */}
       <TandC termsAndCondition={tandc} />
       <HStack my="4" padding={'4'}>
         <RiSecurePaymentFill />
