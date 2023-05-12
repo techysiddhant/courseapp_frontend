@@ -102,7 +102,7 @@ const Subscribe = ({ user }) => {
         </Box>
         <Box bg="blackAlpha.600" p="4" css={{ borderRadius: '0 0 8px 8px' }}>
           <Heading size={'sm'} textTransform={'uppercase'} color={'white'}>
-            100% Refund at cancellation
+            100% Refund at cancelation
           </Heading>
           <Text fontSize={'xs'} color={'white'}>
             *Terms and Condition apply{' '}
