@@ -45,11 +45,15 @@ const Testimonial = () => {
             gridTemplateColumns={'repeat(2,1fr)'}
           >
             <figure>
-              <Image src={img} />
+              <Image
+                src={
+                  'https://media.licdn.com/dms/image/C5603AQFQgW6lg06ZOQ/profile-displayphoto-shrink_400_400/0/1594709396098?e=1689206400&v=beta&t=wGueYcZfzmOh5Wt4vjPebqSlkOaPBfmVVQiIVrmQBx4'
+                }
+              />
             </figure>
             <Box className="client-data-details">
-              <Text fontWeight={'bold'}>Siddhant Jain</Text>
-              <Text>Coder | Tech Enthusiast</Text>
+              <Text fontWeight={'bold'}>UMAR FARUQUE ALI</Text>
+              <Text>Avid Photographer | Communication</Text>
             </Box>
           </Box>
         </SwiperSlide>
