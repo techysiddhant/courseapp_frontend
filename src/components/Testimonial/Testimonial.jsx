@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination, Autoplay } from 'swiper';
 
-import img from '../../assets/images/img.png';
+// import img from '../../assets/images/img.png';
 import './testimonial.css';
 import { Box, Image, Text } from '@chakra-ui/react';
 const Testimonial = () => {
@@ -157,7 +157,7 @@ const Testimonial = () => {
             <figure>
               <Image
                 src={
-                  'https://media.licdn.com/dms/image/D4D35AQFdvozOOov_aw/profile-framedphoto-shrink_400_400/0/1674550324795?e=1684522800&v=beta&t=1dYxdnJOwVXyp21d9qG3w8L3gJ2bvcMYd7V3DG9Aj40'
+                  'https://media.licdn.com/dms/image/D4D35AQFdvozOOov_aw/profile-framedphoto-shrink_400_400/0/1674550324795?e=1686027600&v=beta&t=xDzAsDmiDZOxk2Eg3PXDAYFu8jos5b6FhMMeeVm-GXU'
                 }
               />
             </figure>
