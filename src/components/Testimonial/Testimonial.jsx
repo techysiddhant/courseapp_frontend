@@ -47,7 +47,7 @@ const Testimonial = () => {
             <figure>
               <Image
                 src={
-                  'https://media.licdn.com/dms/image/C5603AQFQgW6lg06ZOQ/profile-displayphoto-shrink_400_400/0/1594709396098?e=1689206400&v=beta&t=wGueYcZfzmOh5Wt4vjPebqSlkOaPBfmVVQiIVrmQBx4'
+                  'https://images.pexels.com/photos/3777567/pexels-photo-3777567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
                 }
               />
             </figure>
@@ -75,7 +75,7 @@ const Testimonial = () => {
             <figure>
               <Image
                 src={
-                  'https://media.licdn.com/dms/image/D4D03AQFxsHOS_hneTA/profile-displayphoto-shrink_400_400/0/1666980453109?e=1689206400&v=beta&t=qOBd4NOa4mP1j8dvYPH1NjSyYdFSGfABfaimRhWtbho'
+                  'https://images.pexels.com/photos/3777567/pexels-photo-3777567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
                 }
               />
             </figure>
@@ -102,7 +102,7 @@ const Testimonial = () => {
             <figure>
               <Image
                 src={
-                  'https://media.licdn.com/dms/image/D4D03AQFHIHi6Lk1MYQ/profile-displayphoto-shrink_400_400/0/1682417890281?e=1689206400&v=beta&t=u6IT6IeHTs6Z16Mn6J-rXreHSLBcNRi9bCnXWLwrF0g'
+                  'https://images.pexels.com/photos/3777567/pexels-photo-3777567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
                 }
               />
             </figure>
@@ -129,7 +129,7 @@ const Testimonial = () => {
             <figure>
               <Image
                 src={
-                  'https://media.licdn.com/dms/image/C4D03AQHq2txh7aagmQ/profile-displayphoto-shrink_400_400/0/1657301471314?e=1689206400&v=beta&t=jytxIgt7PvjfJapjp2iaIR-17i2WaZQMUDy_o6kFpYg'
+                  'https://images.pexels.com/photos/3777567/pexels-photo-3777567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
                 }
               />
             </figure>
@@ -157,7 +157,7 @@ const Testimonial = () => {
             <figure>
               <Image
                 src={
-                  'https://media.licdn.com/dms/image/D4D35AQFdvozOOov_aw/profile-framedphoto-shrink_400_400/0/1674550324795?e=1686027600&v=beta&t=xDzAsDmiDZOxk2Eg3PXDAYFu8jos5b6FhMMeeVm-GXU'
+                  'https://images.pexels.com/photos/3777567/pexels-photo-3777567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
                 }
               />
             </figure>
@@ -185,7 +185,7 @@ const Testimonial = () => {
             <figure>
               <Image
                 src={
-                  'https://media.licdn.com/dms/image/D4D03AQH6gx5n9nhIzw/profile-displayphoto-shrink_400_400/0/1680185186877?e=1689206400&v=beta&t=UJfqs3fMu6M7H79bkIOGiPHrDPlcZK6b6DCdr_JkrtU'
+                  'https://images.pexels.com/photos/3777567/pexels-photo-3777567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
                 }
               />
             </figure>

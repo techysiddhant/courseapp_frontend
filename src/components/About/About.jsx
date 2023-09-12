@@ -21,14 +21,14 @@ const Founder = () => (
     padding={'8'}
     // width={'full'}
   >
-    <VStack>
+    {/* <VStack>
       <Avatar
         boxSize={['40', '40']}
         src="https://avatars.githubusercontent.com/u/68164152?v=4"
       />
       <Text opacity={''}>Siddhant Jain</Text>
       <Text opacity={'0.7'}>Founder & CEO</Text>
-    </VStack>
+    </VStack> */}
     <VStack>
       <Avatar
         boxSize={['40', '40']}
